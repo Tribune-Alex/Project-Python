@@ -23,18 +23,21 @@ def load_words(filename):
 
 
 def gues_what():
- print(f'There are 3 categories: 1-Cities, 2-Movies and 3-Animals\n Choose one of them')
-
- choice = int(input("Your Choise: "))
- if choice == 1:
-  return 'cities.txt'
- elif choice == 2:
-  return 'movies.txt'
- elif choice == 3:
-  return 'animals.txt'
- else:
-  print("In this way the words will be from category 'OTHERS'")
-  return 'others.txt'
+ while True:
+        print('There are 3 categories:\n1 - Cities\n2 - Movies\n3 - Animals\nChoose one of them')
+        try:
+            choice = int(input("Your Choice: "))
+            if choice == 1:
+                return 'cities.txt'
+            elif choice == 2:
+                return 'movies.txt'
+            elif choice == 3:
+                return 'animals.txt'
+            else:
+                print("In this way the words will be from category 'OTHERS'")
+                return 'others.txt'
+        except ValueError:
+            print("Input only number please")
              
        
 
