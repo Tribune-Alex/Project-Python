@@ -1,0 +1,12 @@
+Gun
+Woman
+Chair
+Mouse
+Computer
+Banana
+Juice
+Cigar
+Love
+Python
+JavaScript
+HTML

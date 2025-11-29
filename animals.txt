@@ -1,0 +1,14 @@
+Tiger
+Lion
+Giraffe
+Wolf
+Coyote
+Bear
+Crocodile
+Elephant
+Gorilla
+Deer
+Zebra
+Horse
+Dog
+Fox
