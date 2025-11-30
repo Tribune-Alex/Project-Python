@@ -94,10 +94,7 @@ class Student_System:
         with open(self.name, "r") as file:
             lines = file.readlines()
 
-        #if len(lines) <= 1:
-            #print("No students in list.")
-            #return
-
+       
         print("\n--- Students List ---")
         for line in lines[1:]: 
             student = Students.file_from(line)
@@ -138,7 +135,7 @@ class Student_System:
         with open(self.name, "r") as file:
             lines = file.readlines()
 
-       # updated = False
+      
 
         with open(self.name, "w") as file:
             file.write(lines[0]) 
@@ -147,14 +144,10 @@ class Student_System:
                 student = Students.file_from(line)
                 if str(student.roll_number) == roll_number:
                     student.grade = new_grade
-                    #updated = True
+                    
                 file.write(student.file_to())
 
-        #if updated:
-           # print("Grade updated successfully.")
-        #else:
-            #print("Student not found.")
-
+       
 
 
 run = Student_System()

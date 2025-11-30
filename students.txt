@@ -10,3 +10,6 @@ James Cameron,787,A
 John Malkovich,565,C
 William Baldwin,353,A
 Walter White,696,A
+Tom Holland,1,A
+Andrew Garfild,595,B
+Joe Doe,541,A
